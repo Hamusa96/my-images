@@ -1,3 +1,8 @@
+.video-js.vjs-thumbnails {
+  display: flex;
+  align-items: center;
+}
+
 .video-js .vjs-overlay {
   color:#fff;
   position:absolute;
