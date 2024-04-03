@@ -4,21 +4,19 @@
   text-align:center
 }
 
-.video-js .vjs-overlay-no-background {
-  max-width:33%
-}
 .video-js .vjs-overlay-background {
   background-color:#646464;
-  background-color:rgba(255,255,255,0.4);
+  background-color:transparent;
   border-radius:3px;
-  padding:10px;
-  width:33%
+  padding:2px;
 }
 
 .video-js .vjs-overlay-top-left {
   top:5px;
   left:5px;
-}.video-js .vjs-overlay-top {
+}
+
+.video-js .vjs-overlay-top {
   left:50%;
   margin-left:-16.5%;
   top:5px;
@@ -27,6 +25,7 @@
 .video-js .vjs-overlay-top-right {
   right:5px;
   top:5px;
+  width:100vw;
 }
 
 .video-js .vjs-overlay-right {
