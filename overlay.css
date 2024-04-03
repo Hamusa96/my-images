@@ -1,7 +1,7 @@
 .video-js .vjs-overlay {
   color:#fff;
   position:absolute;
-  text-align:center
+  text-align:center;
 }
 
 .video-js .vjs-overlay-background {
@@ -24,7 +24,8 @@
 
 .video-js .vjs-overlay-top-right {
   right:5px;
-  top:5px;
+  top:auto;
+  bottom:auto;
   width:100vw;
 }
 
